@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTapCoBan_JSBuoi4</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-5 py-5">
+            <h2>Chương trình xuất 3 số nguyên theo thứ tự tăng dần</h2>
+            <form>
+                <div class="form-group">
+                    <label for="">Số nguyên thứ 1</label>
+                    <input type="text" class="form-control" id="soThu1">
+                </div>
+                <div class="form-group">
+                    <label for="">Số nguyên thứ 2</label>
+                    <input type="text" class="form-control" id="soThu2">
+                </div>
+                <div class="form-group">
+                    <label for="">Số nguyên thứ 3</label>
+                    <input type="text" class="form-control" id="soThu3">
+                </div>
+                <button type="button" class="btn btn-primary" id="btnXuat">Xuất</button>
+            </form>
+            <p class="alert alert-success py-3" id="txtThongbao"></p>
+        </div>
+
+        <div class="col-5 py-5">
+            <h2>Chương trình chào hỏi người sử dụng máy</h2>
+            <p> Người dùng nhập vào ký tự ứng với thành viên của mình trong gia đình</p>
+            <form>
+                <div class="form-group">
+                    <label for="">Xin hỏi ai đang sử dụng máy</label>
+                    <input type="text" class="form-control" id="inputUser" placeholder="Nhập vào B: bố, M: mẹ, A: anh, E: em ?">
+                </div>
+                <button type="button" class="btn btn-primary" id="btnUser">Xuất</button>
+            </form>
+            <p class="alert alert-success py-3" id="txtUsername"></p>
+        </div>
+
+        <div class="col-5 py-5">
+            <h2>Chương trình kiểm tra số chẵn lẻ</h2>
+            <p> Người dùng nhập vào 3 số nguyên</p>
+            <form>
+                <div class="form-group">
+                    <label for="">Nhập vào số thứ nhất</label>
+                    <input type="text" class="form-control" id="inputNum1">
+                    <label for="">Nhập vào số thứ hai</label>
+                    <input type="text" class="form-control" id="inputNum2">
+                    <label for="">Nhập vào số thứ ba</label>
+                    <input type="text" class="form-control" id="inputNum3">
+                </div>
+                <button type="button" class="btn btn-primary" id="btnnumberCheck">Xuất</button>
+            </form>
+            <p class="alert alert-success py-3" id="txtnumberCheck"></p>
+        </div>
+
+        <div class="col-5 py-5">
+            <h2>Chương trình nhập 3 cạnh tam giác</h2>
+            <p> Cho biết tam giá đó là tam giác gì ?</p>
+            <form>
+                <div class="form-group">
+                    <label for="">Nhập vào cạnh thứ nhất</label>
+                    <input type="text" class="form-control" id="inputCanha">
+                    <label for="">Nhập vào cạnh thứ hai</label>
+                    <input type="text" class="form-control" id="inputCanhb">
+                    <label for="">Nhập vào cạnh thứ ba</label>
+                    <input type="text" class="form-control" id="inputCanhc">
+                </div>
+                <button type="button" class="btn btn-primary" id="btnTamgiac">Xuất</button>
+            </form>
+            <p class="alert alert-success py-3" id="txtTamgiac"></p>
+        </div>
+    </div>
+
+
+
+    <!-- Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
